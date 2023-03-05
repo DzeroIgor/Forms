@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms | Registration</title>
+</head>
+<body>
+    <form action="confirmed.html">
+        <fieldset>
+            <legend style="background-color: rgb(225, 226, 226); padding: 3px 10px;">Personal Data</legend>
+
+            <h1 >Create an account</h1>
+            
+            <table cellpadding="2px">
+                <tr>
+                    <td>
+                        <label for="name">
+                            Your full name                 
+                        </label>
+                    </td>
+                    <td>
+                        <input 
+                        type="text" 
+                        name="name" 
+                        id="name"
+                        required
+                        placeholder="Enter your full name"
+                        size="50"
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="number">
+                            Your phone number                        
+                        </label>
+                    </td>
+                    <td>
+                        <input 
+                        type="text" 
+                        name="number" 
+                        id="number"
+                        required
+                        placeholder="Enter your phone number"
+                        size="50"
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">
+                            Your email address                        
+                        </label>
+                    </td>
+                    <td>
+                        <input 
+                        type="email" 
+                        name="email" 
+                        id="email"
+                        required
+                        placeholder="Enter your email address"
+                        size="50"
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">
+                            Your password                        
+                        </label>
+                    </td>
+                    <td>
+                        <input 
+                        type="password" 
+                        name="password" 
+                        id="password"
+                        required
+                        placeholder="Enter your phone number"
+                        size="50"
+                        >
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend  style="background-color: rgb(225, 226, 226); padding: 3px 10px;">Courses Section</legend>
+
+            <p>Chose the training program:</p>
+            <select name="program" id="program" required>
+                <option disabled selected value>Select a program</option>
+                <option value="1">HTML Basics Courses</option>
+                <option value="2">CSS Basic Courses</option>
+                <option value="3">JavaScript Basic Courses</option>
+            </select>
+            
+            <br>
+            
+            <p>Chose the study hours:</p>
+            <select name="HOURS" id="HOURS" required>
+                <option disabled selected value>Select a hour</option>
+                <optgroup label="Morning">
+                    <option value="1">09:00</option>
+                    <option value="2">10:00</option>
+                </optgroup>
+                <optgroup label="Evening">
+                    <option value="3">19:00</option>
+                    <option value="4">20:00</option>
+                </optgroup>
+            </select>
+
+            <p>Do you want to learn with us?</p>   
+            <table>
+                <tr>
+                    <td width="110px">
+                        <label>
+                            <input type="radio" name="chose" required/>
+                            Definitely
+                        </label>
+                    </td>
+                    <td width="110px">
+                        <label>
+                            <input type="radio" name="chose" required/>
+                            Maybe
+                        </label>
+                    </td>
+                    <td width="110">
+                        <label>
+                            <input type="radio" name="chose" required/>
+                            Not sure
+                        </label>
+                    </td>
+                </tr>
+            </table>        
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend style="background-color: rgb(225, 226, 226); padding: 3px 10px;">Terms and Conditions</legend>
+            <input type="checkbox" required> I accept <a href="terms.html" target="_blank">terms and conditions</a>        
+        </fieldset>
+        <br>
+        <button type="submit" style="padding: 3px 20px; margin: 0 18px;">APPLY</button>
+    </form>
+</body>
+</html>
