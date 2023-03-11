@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/rafiqul-hassan/blogger/128/Search-icon.png" type="image/x-icon">
+    <title>Search Form</title>
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <table border="0" width="600px" cellspacing="0" style="margin: 100px auto 0 auto;">
+            <tr align="center">
+                <td colspan="2">
+                    <img src="Google_2015_logo.svg"
+                    alt="google logo"
+                    class="googlei">
+                </td>
+            </tr>
+        
+            <tr align="center">
+                <td colspan="2">
+                    <input class="search" 
+                    type="search" name="q" 
+                    required 
+                    pattern="[a-z\s]{3,}"
+                    id="styling"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="300">
+                    <button type="submit" class="button">Google Search</button>
+                </td>
+                <td align="left" width="300">
+                    <button type="button" class="button">I&#39m Feeling Lucky</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+    <form action="https://yandex.com/search/">
+        <div align="center" style="margin-top: 120px;">
+            <img src="Yandex_logo.svg.png" alt="Yandex logo" height="30px" style="vertical-align: top;">
+            <div class="search-box-wrapper">
+            <input 
+            type="text" 
+            class="search-box-input" 
+            name="text" 
+            placeholder="Finds everything" 
+            pattern="[A-Za-z\s]{3,}"
+            required 
+            />
+            <button type="submit" class="search-box-button">
+                Search
+            </button>
+            </div>
+        </div>
+    </form>
+
+    <form action="">
+        
+    </form>
+
+
+    <form action="https://www.youtube.com/results">
+        <div align="center" style="margin-top: 150px;">
+            <img src="Logo_of_YouTube_(2015-2017).svg.webp" alt="YouTube logo" height="35px" style="vertical-align: middle;">
+            <div align="center" class="youtube-wrapper">
+                <input 
+                class="youtube-input" 
+                type="text" 
+                name="search_query" 
+                id="" 
+                placeholder="Search"
+                pattern="[A-Za-z\s]{3,}"
+                required
+                />
+                <button type="submit" class="youtube-button">
+                    <img src="https://www.shareicon.net/data/2015/09/05/96381_search_512x512.png" width="25px" alt="">
+                </button>
+            </div>
+        </div>        
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,93 @@
+/* Google Style */
+.search {
+    width: 598px;
+    height: 40px;
+    border-radius: 15px;
+    border: 0.5px solid;
+    margin-bottom: 15px;
+    border-color: rgb(204, 204, 204);
+}
+
+.button {
+    background: #f5f5f5;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: #1183d6;
+    outline: none;
+}
+
+.googlei {
+    padding-bottom: 20px;
+    width: 280px;
+}
+
+#styling {
+    background: #fff url("https://www.shareicon.net/data/2015/09/05/96381_search_512x512.png") left no-repeat;
+    padding-left: 40px;
+    background-size: 35px;
+    background-position-x: left;
+    font-size: 16px;
+}
+
+/* Yandex style */
+
+.search-box-wrapper {
+    display: inline-flex;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.search-box-input {
+    font-size: inherit;
+    border: 2px solid #ffd000;
+    border-radius: 10px 0 0 10px;
+    padding: 10px 10px;
+    width: 500px;
+    outline: 0;
+}
+
+.search-box-button {
+    font-size: inherit;
+    border: 2px solid #ffd000;
+    border-radius: 0 10px 10px 0;
+    background-color: #ffd000;
+    border-left: 0;
+    padding: 0 20px;
+    outline: 0;
+    cursor: pointer;
+}
+
+/* Youtube style */
+
+.youtube-wrapper {
+    display: inline-flex;
+    font-size: 16px;
+}
+
+.youtube-input {
+    font-size: inherit;
+    border: 1px solid #c6c6c6;
+    border-radius: 20px 0 0 20px;
+    padding: 10px 15px;
+    width: 400px;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.youtube-button {
+    border: 1px solid #c6c6c6;
+    border-radius: 0 20px 20px 0;
+    background-color: #f1f1f1;
+    border-left: 0;
+    padding: 0 25px;
+    outline: 0;
+    cursor: pointer;
+}
