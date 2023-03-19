@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icons/shushi_icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Order</title>
+</head>
+
+<body>
+
+    <div class="button-center">
+        <a href="index.html">
+            <button class="full-button">
+                Select Food
+            </button></a>
+
+        <a href="confirm.html">
+            <button class="full-button">
+                Confirm order
+            </button></a>
+
+        <a href="payment.html">
+            <button class="line-button">
+                Delivery and payment
+            </button></a>
+    </div>
+    <form action="final.html">
+
+        <table border="0" align="center" cellspacing="0">
+            <tr>
+                <td class="right" width="459px">
+                    <div class="wrapper">
+                        <label 
+                        class="important"
+                        for="user-name">
+                            Your name
+                        </label>
+                        <input 
+                        class="input_label"
+                        type="text" 
+                        id="user-name" 
+                        name="user-name" 
+                        placeholder="First Name Last Name" 
+                        required 
+                        />
+                    </div>
+                    
+
+                    <div class="wrapper">
+                        <label 
+                        class="important"
+                        for="phone">
+                            Phone
+                        </label>
+                        <input 
+                        class="input_label"
+                        type="text" 
+                        id="phone" name="phone" 
+                        placeholder="+373 (_ _)  _ _  _ _  _ _" 
+                        required 
+                        />                    
+                    </div>
+
+                    <div class="wrapper">
+                        <label 
+                        class="important"
+                        for="email">
+                            Email
+                        </label>
+                        <input 
+                        class="input_label"
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="example@example.com" 
+                        required 
+                        />
+                    </div>
+
+                    <div class="user_agrement">
+                        <div class="custum-checkbox">
+                            <div class="custum-checkbox">
+                                <input 
+                                class="option"
+                                type="checkbox" 
+                                id="call" 
+                                name="call" 
+                                />
+                                <label for="call">
+                                    Without call
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="wrapper">
+                            <label class="important-one" for="delivery">
+                                Select delivery method:
+                            </label>
+                        </div>
+                        <div class="user_agrement">
+                            <div class="custum-checkbox">                    
+                                <div class="custum-checkbox">
+                                    <input class="option" type="radio" id="delivery" name="delivery" value="with-deliver" />
+                                    <label class="call" for="delivery">Order with delivery</label>
+                                </div>
+                                <div class="custum-checkbox">
+                                    <input type="radio" id="pickup" name="delivery" value="pickup" />
+                                    <label class="call" for="pickup">Pickup</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+                    
+                    <div class="pay">
+                        <div class="wrapper">
+                            <label class="important-one" for="courier-cash">
+                                Select payment method:
+                            </label>
+                        </div>
+                        <div class="user_agrement">
+                            <div class="custum-checkbox">                    
+                                <div class="custum-checkbox">
+                                    <input class="option" type="radio" id="courier-cash" name="pay" value="courier-cash" />
+                                    <label class="call" for="courier-cash">Pay to courier cash</label>
+                                </div>
+                                <div class="custum-checkbox">
+                                    <input type="radio" id="pay-transfer" name="pay" value="transfer" />
+                                    <label class="call" for="pay-transfer">By transfer</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="user_agrement">
+                        <div class="custum-checkbox">
+                            <div class="custum-checkbox">
+                                <input class="option" type="checkbox" id="call" name="terms" required />
+                                <label for="call">
+                                    I agree with <a href="terms&conditions.html" target="_blank">User agreement</a>
+                                </label>
+                            </div>
+                        </div>
+                    </div>                 
+
+
+                    
+                </td>
+
+                <td width="200px" valign="top">
+                    <div class="delivery">
+                        <label for="" class="label">
+                            <img src="icons/Shrimp Classic Solid Icon Font Awesome.png" width="30px">
+                            <span class="in-card">In Card</span>
+                        </label>
+                        <hr>
+                        <article class="item">
+                            <p class="flavor">Order sum</p><p class="price">940 lei</p>
+                        </article>
+        
+                        <article class="item">
+                            <p class="flavor">Delivery</p><p class="price">55 lei</p>
+                        </article>
+                        <hr>
+                    </div>
+                </td>
+            </tr>        
+        </table>
+    
+        <div class="submit">
+            <button type="submit" class="button-one">PAY ORDER</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,299 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* select product */
+.grammage,
+.button-order {
+    text-align: right;
+    width: 26%;
+    color: #000000;
+}
+
+.name {
+    text-align: left;
+    width: 74%;
+    color: #000000;
+}
+
+.price-order {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.item-order p {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding: 5px 10px;
+
+}
+
+.button-order {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ffe241;
+    border-style: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.box {
+    background-color: #f6f6f6;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* images from second page */
+
+.confi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.confi img {
+    width: 100%;
+    max-width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.confirm {
+    font-family: 'Montserrat';
+    font-size: 14px;
+
+}
+
+.button-one {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ffe241;
+    border-style: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+/* confirm order */
+.number {
+    width: 60px;
+    height: 40px;
+    border-style: none;
+}
+
+.border {
+    border-bottom: 1px solid #ffe241;
+}
+
+.right {
+    border-right: 1px dotted grey;
+}
+
+hr {
+    border: 1px dotted #939393;
+}
+
+.in-card {
+    padding-left: 10px;
+    color: #3d3d3d;
+    justify-content: baseline;
+}
+
+.delivery {
+    padding: 0 0 0 5px;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.xx {
+    padding: 0 5px;
+}
+
+/* import */
+.price {
+    text-align: right;
+    width: 40%;
+    color: #3d3d3d;
+}
+
+.flavor {
+    text-align: left;
+    width: 60%;
+    color: #777676;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
+
+/* top button */
+
+.full-button {
+    background-image: url("images/arrow.png");
+    background-size: 100%;
+    width: 225px;
+    height: 30px;
+    border-style: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+.line-button {
+    background-image: url("images/arrow_one.png");
+    background-size: 100%;
+    width: 225px;
+    height: 30px;
+    border-style: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+/* delivery and pay */
+
+.wrapper {
+    margin: 0 0 15px 0;
+    text-align: right;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 100%;
+}
+.pay {
+    float: left;
+}
+
+.important {
+    text-align: right;
+    width: 120px;
+    display: inline-block;
+    padding-right: 14px;
+}
+
+.important-one {
+    text-align: right;
+    width: 120px;    
+    padding-right: 14px;
+    float: left;
+}
+.important-two {
+    text-align: right;
+    width: 120px;    
+    padding-right: 14px;
+    float: left;
+}
+
+.input_label {
+    width: 300px;
+    height: 38px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin: 0 15px;
+}
+
+:placeholder-shown {
+    font-family: 'Montserrat';
+    font-size: inherit;
+}
+
+.user_agrement {
+    margin: 0 0 5px 140px;
+    padding: 0;
+    color: #6a6a6a;
+    font-family: 'Montserrat';
+    font-size: 100%;
+}
+
+.custom_checkbox {
+    font-family: 'Montserrat';
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: #6a6a6a;
+    display: inline-block;
+}
+
+.option {
+    cursor: pointer;
+    line-height: normal;
+}
+
+/* .wrapper .delivery_method {
+} */

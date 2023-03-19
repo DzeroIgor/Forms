@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.box {
+    background-color: #f6f6f6;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin:10px;
+}
+.box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor:zoom-in;  
+    border-radius: 5px 5px 0 0;
+    transition: transform .5s;
+}
+
+div.box img:hover {
+  width: 280;
+  height: auto;
+  transform: scale(0.95);
+}
+
+.order-button {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ffe241;
+    border-style: none;
+    cursor:pointer;    
+    font-family: 'Montserrat';
+    font-weight: 600;
+    position: absolute;
+    left: 180px;
+    top: 220px;
+  }
+
+  .name {
+    padding: 10px 0 0 10px;
+  }
+
+  .price {
+    padding: 50px 0 20px 10px;
+  }
+
+  .quant {
+    padding: 10px 10px 20px;
+  }
+    </style>
+<div class="box">
+    <div>
+        <img src="images/roll-canada.jpg"
+            onclick="document.getElementById('modal01').style.display='block'">
+    
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <img src="images/roll-canada.jpg" style="width:100%">
+            </div>
+        </div>
+    <span class="name">Canada</span>
+    <span class="quant">8 pcs</span>
+    <span class="price">255 lei</span>
+    <button class="order-button">ORDER</button>
+</div>
+<!-- <div class="w3-container">    
+    <img src="images/roll-canada.jpg" style="width:30%;cursor:zoom-in"
+        onclick="document.getElementById('modal01').style.display='block'">
+
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+            <img src="images/roll-canada.jpg" style="width:100%">
+        </div>
+</div> -->
+</div>
+</body>
+</html>
