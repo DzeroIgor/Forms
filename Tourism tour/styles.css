@@ -1,0 +1,217 @@
+ @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+ body {
+    font-family: 'Signika Negative', sans-serif;
+ }
+table {
+    margin: auto;
+ }
+ /* photo effect */
+ img {
+    width: 100%;
+ }
+ .container {
+    width: 100%;
+    position: relative;
+ }
+image {
+    width: 100%;
+    height: auto;
+ }
+image-one {
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+ }
+ .container:hover .hover {
+    opacity: 1;
+ }
+.hover {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    opacity: 0;
+    transition: 4s ease;
+}
+.hover {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    opacity: 0;
+    transition: 4s ease;
+}
+ /* end photo effect */
+.logo {
+    width: 130px;
+    height: 130px;
+}
+ h1 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #679bd7;
+    font-size: 3.8rem;
+    font-weight: 800;
+    margin: 30px 0px auto 15px;
+ }
+ .destination {
+    margin: 10px 0 7px 0;
+ }
+.p-first-page {
+    text-align: justify;
+    font-weight: 100;
+    padding: 0px;
+ }
+.fieldset-one {
+    border: 2px solid #9bc7de;
+    border-radius: 5px;
+    margin: 10px 15px;
+    padding: 15px;
+  }
+legend {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.question {
+    margin: -5px 0 5px 0;
+    font-weight: 500;
+ }
+.departure-text {
+    margin: -5px 0 5px 0;
+    font-weight: 500;
+ }
+.departure {
+    width: 250px;
+    height: 40px;
+    background-image: url(icons/departure.gif);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 135px;
+    border: 2px solid #9bc7de;
+    border-radius: 5px;
+    font-size: large;
+    color: #6c6c6c;
+    padding: 0px 10px;
+    display: block;
+}
+.arrival-text {
+    margin: 10px 0 5px 0;
+    font-weight: 500;
+ }
+.arrival {
+    width: 250px;
+    height: 40px;
+    background-image: url(icons/arrival.gif);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 135px;
+    border: 2px solid #9bc7de;
+    border-radius: 5px;
+    font-size: large;
+    color: #6c6c6c;
+    padding: 0px 10px;
+}
+.ticket {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #9bc7de;
+    border-radius: 5px;
+    font-size: large;
+    color: #6c6c6c;
+    padding: 0px 10px;
+}
+
+.order {
+    border: 2px solid #9bc7de;
+    border-radius: 5px;
+    margin: 0;
+}
+.submit {
+    margin: 10px 15px;
+    width: 310px;
+    height: 40px;
+    border: 0px solid #d3f0ff;
+    border-radius: 7px;
+    font-size: large;
+    background-color: #95b5dac0;
+}
+ .submit:hover {
+    border: 2px solid #4145b494;
+    cursor: pointer;
+ }
+.back {
+    margin: 10px 0;
+    width: 150px;
+    height: 40px;
+    border: 0px solid #d3f0ff;
+    border-radius: 7px;
+    font-size: large;
+    background-color: #a0bddec0;         
+}
+ .back:hover {
+    border: 2px solid #4145b494;
+    cursor: pointer;
+    font-weight: 600;
+ }
+ .inline {
+     display: flex;
+ }
+ .inline-one {
+    display: flex;
+    justify-content: right;
+    align-items: center;    
+ }
+.inline-two {
+    display: flex;
+    width: 800px;
+}
+ 
+ .name {
+    width: 650px;
+ }
+ .befor-input {
+    width: 130px;
+    text-align: right;
+    padding-right: 10px;
+ }
+
+.buy-ticket {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #9bc7de;
+    border-radius: 5px;
+    font-size: large;
+    color: #6c6c6c;
+    padding: 0px 010px;
+    margin: 0 5px;
+}
+.buy-ticket-long {
+    width: 575px;
+    height: 40px;
+    border: 2px solid #9bc7de;
+    border-radius: 5px;
+    font-size: large;
+    color: #6c6c6c;
+    padding: 0px 010px;
+    margin: 0 5px;
+}
+.submit-fin {
+    margin: 10px auto;
+    width: 800px;
+    height: 40px;
+    border: 0px solid #d3f0ff;
+    border-radius: 7px;
+    font-size: large;
+    background-color: #95b5dac0;
+}
+.congratulations {
+    font-size: 2.5rem;
+}
