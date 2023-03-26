@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title>Subscribe</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500&display=swap');
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: #ff5252;
+}
+h1 {
+    text-align: center;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 150px;
+}
+span {
+    font-weight: 400;
+}
+div {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+input {
+    height: 30px;
+    width: 270px;
+    border-style: none;
+    padding: 0;
+    padding-left: 30px;
+    margin: 0 5px;
+    border-radius: 15px;
+    font-size: 14px;
+    background-image: url(red-at.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    background-position: 5px;
+}
+::placeholder {
+    color: #ff5252;
+}
+button {
+    border-style: none;
+    padding: 0;
+    height: 30px;
+    width: 80px;
+    margin: 0 5px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ff5252;
+    cursor: pointer;  
+}
+    </style>
+</head>
+<body>
+    <form action="confirmation.html">
+        <h1><span>Subscribe</span> our newsletter list</h1>
+        <div>
+            <input type="email" 
+            placeholder="example@example.com"
+            name="email"
+            autofocus
+            required
+            />
+            <button>subscribe</button>
+        </div>
+    </form>
+</body>
+</html>

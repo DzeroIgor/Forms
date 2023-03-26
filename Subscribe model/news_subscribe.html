@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+body {
+    font-family: 'Gloock', serif;
+}
+.form {
+    width: 600px;
+    height: 250px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    margin: 80px auto;
+    border-radius: 5px;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 0px 0px 15px #000000;
+    font-size: 27px;
+    letter-spacing: 1.5px;
+}
+.input-email {
+    
+    width: 350px;
+    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 40px;
+    font-size: medium;
+    background-image: url(at_1.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: center;
+    background-position: 5px;
+}
+::placeholder {
+    color: #777777;
+}
+.button-style {
+width: 60px;
+height: 35px;
+border-style: none;
+border-radius: 5px;
+color: transparent;
+background-image: url(email-edit-outline.svg);
+background-size: 30px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: #ffffff;
+cursor: pointer;
+}
+.button-style:hover {
+width: 60px;
+height: 35px;
+border-style: none;
+border-radius: 5px;
+color: transparent;
+background-image: url(email-edit-outline-white.svg);
+background-size: 30px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: #000000;
+cursor: pointer;
+}
+.center {
+    width: fit-content;
+    margin: 50px auto;
+}
+    </style>
+</head>
+<body>
+    <form action="thanks.html" class="form">
+        <h1>Join our newsletter list</h1>
+        <div class="center">
+            <input 
+            autofocus
+            name="email"
+            type="email" 
+            class="input-email" 
+            placeholder="e.g: example@example.com"
+            required
+            />
+            <button class="button-style">SEND</button>
+        </div>
+    </form>
+</body>
+</html>
