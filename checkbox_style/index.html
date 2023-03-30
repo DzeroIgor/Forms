@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/comili" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+    <style>
+        .form_one {
+            padding: 20px;
+            margin: auto;
+            width: fit-content;
+            margin-top: 100px;
+            background-color: #f4f4f4;
+        }
+        .form_two {
+            padding: 20px;
+            margin: auto;
+            width: fit-content;
+            margin-top: 100px;
+            background-color: #343434;
+        }
+        input {
+            display: none;
+        }
+        .red {
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            border: 3px solid #ff0000;
+            background-color: #fff;
+            display: inline-block;
+            align-items: center;
+            transform: translateY(3px);
+        }
+        .simple {
+            font-size: 30px;
+            font-weight: 600;
+            padding-left: 10px;
+            
+        }
+        input:checked + .red {
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            border: 3px solid #ff0000;
+            background-image: radial-gradient(#ff0000 50%, #fff 51%);
+        }
+        /* second form */
+        .check {
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            background-image: url(off.png);
+            background-size: 40px;
+            background-repeat: no-repeat;
+                       
+        }
+        .table {
+            font-family: 'ComiliBook';
+            font-size: 30px;
+            padding-left: 10px;
+            color: #fff;
+            display: inline-block;
+            transform: translateY(-15px);
+            
+        }
+        input:checked + .check {
+            background-image: url(on.png);
+            background-size: 40px;
+            background-repeat: no-repeat;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="" class="form_one">
+        <label>
+            <input type="checkbox">
+            <div class="red"></div>
+            <span class="simple">
+                I agree with terms and conditions
+            </span>
+        </label>
+    </form>
+    <form action="" class="form_two">
+        <label>
+            <input type="checkbox">
+            <div class="check">
+            </div>
+            <span class="table">
+                I agree with terms and conditions
+            </span>
+        </label>
+    </form>
+</body>
+</html>
